@@ -49,7 +49,7 @@ int main(void)
     // petal.KNOB_5 = POT_3
     // petal.KNOB_6 = POT_6
 
-    pot_led_flash_control(petal.KNOB_6);
+    pot_led_flash_control(Terrarium::POT_2);
 
     return 0;
 }
